@@ -2,9 +2,7 @@ from objects import Game
 
 def _main():
 
-    # main alternative
-    # to test
-    # test
+    # add test comment
 
     game = Game()
 
