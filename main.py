@@ -1,13 +1,27 @@
 from objects import Game
 
-def main():
+def _main():
+
+    # main alternative
 
     game = Game()
+
+    print(game.code)
     
     while not game.is_game_over:
 
         turn = game.play_turn()
         print(turn)
+
+def main():
+
+    game = Game()
+    print(game.code)
+    turn = [0,0,0,0]
+    game.code = ['red', 'red', 'red', 'red']
+
+    while not game.is_game_over:
+        turn = game.play_turn_computer(turn)
 
 
 
