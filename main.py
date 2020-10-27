@@ -4,6 +4,7 @@ def _main():
 
     # main alternative
     # to test
+    # test
 
     game = Game()
 
