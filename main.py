@@ -2,8 +2,6 @@ from objects import Game
 
 def _main():
 
-    # add test comment
-
     game = Game()
 
     print(game.code)
