@@ -3,6 +3,7 @@ from objects import Game
 def _main():
 
     # main alternative
+    # to test
 
     game = Game()
 
